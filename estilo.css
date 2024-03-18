@@ -19,6 +19,8 @@ header{
     border-radius: 10px;
 }
 nav{
+    position:sticky;
+    top: 0%;
     width: 50%;
     height: 30px;
     background-color: beige;
@@ -56,9 +58,7 @@ section img{
     transition: all 1s ease-in-out;
 }
 
-section img:hover{
-    transform: scale(1,1);
-}
+
 .SEC{
     grid-column-start: 1;
     grid-column-end: 3;
