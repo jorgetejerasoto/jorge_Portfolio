@@ -96,3 +96,65 @@ article:hover{
     transform: scale(1.01,1.01);
 }
 
+/*Resposinve*/
+@media (max-width: 579px) {
+    nav {
+        width: 80%;
+        height: 30px;
+        background-color: beige;
+        margin-top: 1vw;
+        margin-left: 10vw;
+        margin-bottom: 1vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section img {
+        border: 1px solid blue;
+        border-radius: 100px 
+    px
+    ;
+        width: 30vw;
+        transition: all 1s ease-in-out;
+    }
+
+    nav div {
+        margin: 12px;
+        width: 25%;
+        height: 20px;
+        background-color: chartreuse;
+        text-align: center;
+        border-radius: 12px;
+    }
+
+    .cuerpo {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        border-radius: 29px;
+        width: 100%;
+        transition: all ease-in-out;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        align-content: center;
+        justify-content: center;
+        background-color: rgb(150, 191, 236);
+        border: 1px solid white;
+        box-shadow: 0 -19px 115px 4px rgb(255, 255, 255);
+    }
+
+    article {
+        width: 80%;
+        background-color: rgb(85, 161, 241);
+        margin: 30px;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    
+}
