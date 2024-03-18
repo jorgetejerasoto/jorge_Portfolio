@@ -136,6 +136,7 @@ article:hover{
         grid-row-end: 4;
         border-radius: 29px;
         width: 100%;
+        height: max-content;
         transition: all ease-in-out;
         display: flex;
         flex-direction: column;
