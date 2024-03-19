@@ -55,7 +55,6 @@ section img{
     border: 1px solid blue;
     border-radius: 100px;
     width: 11vw;
-    transition: all 1s ease-in-out;
 }
 
 
@@ -113,11 +112,8 @@ article:hover{
 
     section img {
         border: 1px solid blue;
-        border-radius: 100px 
-    px
-    ;
+        border-radius: 100px ;
         width: 30vw;
-        transition: all 1s ease-in-out;
     }
 
     nav div {
@@ -156,6 +152,7 @@ article:hover{
         padding: 20px;
         border: 1px solid white;
         border-radius: 10px;
+        text-align: justify;
     }
     
 }
