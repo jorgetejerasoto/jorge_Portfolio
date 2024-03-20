@@ -109,6 +109,13 @@ article:hover{
     background-color:rgb(85, 161, 241);
     width: 400px;
     height: 400px;
+    text-align: center;
+    padding: 0;
+}
+
+.contact ul{
+    list-style: none;
+    color: black;
 }
 
 footer{
