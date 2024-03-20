@@ -101,6 +101,7 @@ article:hover{
 }
 
 .contact{
+    margin: 130px;
     border: 1px solid white;
     grid-column-start: 1;
     grid-column-end: 3;
