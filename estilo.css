@@ -140,7 +140,6 @@ footer{
     nav {
         width: 80%;
         height: 30px;
-        background-color: beige;
         margin-top: 2vw;
         margin-left: 10vw;
         margin-bottom: 2vw;
@@ -160,7 +159,6 @@ footer{
         margin: 12px;
         width: 25%;
         height: 20px;
-        background-color: chartreuse;
         text-align: center;
         border-radius: 12px;
     }
@@ -195,7 +193,7 @@ footer{
         text-align: justify;
     }
     .contact{
-        margin-top: 35vw;
+        margin-top: 40vw;
     }
 
     footer{
