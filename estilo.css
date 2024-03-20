@@ -116,6 +116,7 @@ article:hover{
 .contact ul{
     list-style: none;
     color: black;
+    padding: 0;
 }
 
 footer{
